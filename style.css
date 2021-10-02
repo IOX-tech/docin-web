@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: linear-gradient(-32deg,rgb(13, 136, 218),black) no-repeat center;
+    background: linear-gradient(-32deg,#f1f1f1,rgb(13, 136, 218),rgb(56, 56, 112),black) no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -189,7 +189,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: rgb(13, 136, 218);  
+    color: rgb(92, 162, 223);  
     font-weight: 500;
 }
 .home .home-content a{
@@ -205,7 +205,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: rgb(0, 4, 230);
+    color: rgb(13, 136, 218);
     background: none;
 }
 
@@ -231,25 +231,25 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: rgb(0, 4, 230);
+    color: rgb(13, 136, 218);
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: rgb(0, 4, 230);
+    background: rgb(13, 136, 218);
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgb(0, 4, 230);
+    border: 2px solid rgb(13, 136, 218);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: rgb(0, 4, 230);
+    color: rgb(13, 136, 218);
     background: none;
 }
 
@@ -277,7 +277,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: rgb(0, 4, 230);
+    background: rgb(13, 136, 218);
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -311,7 +311,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: rgb(0, 4, 230);
+    color: rgb(13, 136, 218);
     text-decoration: none;
 }
 footer span a:hover{
@@ -532,5 +532,5 @@ button:hover .icon-container .icon--right{
 }
 ::selection{
     color: #f1f1f1;
-    background-color: rgb(0, 4, 230);
+    background-color: rgb(13, 136, 218);
 }
